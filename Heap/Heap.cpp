@@ -2,6 +2,8 @@
 #include <vector>
 #include <algorithm>
 
+//Code for heapify...
+
 using namespace std;
 void heapify(vector <int>& vec, int index) {
     if(index == 0)  return;
