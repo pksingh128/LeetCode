@@ -2,6 +2,8 @@
 #include <vector>
 #include <algorithm>
 
+//Code for heapify...
+
 using namespace std;
 
 void perculate(vector<int> &vec, int index, int size)
