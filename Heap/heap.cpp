@@ -40,6 +40,7 @@ void heapify(vector<int> &vec, int index)
         }
     }
 }
+
 int main()
 {
     vector<int> vec = {4, 1};

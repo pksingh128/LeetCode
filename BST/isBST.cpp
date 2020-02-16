@@ -28,6 +28,7 @@ void isBst(TreeNode* root) {
         
         if(smallerOrNot(root->left, root->data)) {cout << "\nleft bst is valid of  : " << root->data;}
         else cout << "\nleft bst is in-valid of  : " << root->data;
+        
         if(greaterOrNot(root->right, root->data)) {cout << "\nright bst is valid of : " << root->data;} 
         else cout << "\nright bst is in-valid of  : " << root->data;
     }
