@@ -6,7 +6,9 @@ set of elements with same bit set and another set with same bit not set. By doin
  will get the first non-repeating element, and by doing same in other sets we will get the second
   non-repeating element.
 */
-
+#include <iostream>
+#include <vector>
+using namespace std;
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
