@@ -42,7 +42,7 @@ void heapify(vector<int> &vec, int index)
 }
 int main()
 {
-    vector<int> vec = {4, 1, 6, 3, 9, 0, 12};
+    vector<int> vec = {4, 1};
     int size = vec.size();
     for (int i = 0; i < size; i++)
     {
