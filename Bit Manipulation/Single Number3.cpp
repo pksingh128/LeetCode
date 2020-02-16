@@ -3,7 +3,7 @@ All the bits that are set in xor will be set in one non-repeating element (x or 
 others. So if we take any set bit of xor and divide the elements of the array in two sets – one 
 set of elements with same bit set and another set with same bit not set. By doing so, we will get
  x in one set and y in another set. Now if we do XOR of all the elements in the first set, we 
- will get the first non-repeating element, and by doing same in other sets we will get the second
+ will get the first Non-repeating element, and by doing same in other sets we will get the second
   non-Repeating Element.
 */
 #include <iostream>
