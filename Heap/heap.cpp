@@ -6,7 +6,7 @@
 //For hemant...
 using namespace std;
 
-void perculate(vector<int> &vec, int index, int size)
+void perculate(vector<int> &vec, int index, int size)  
 {
     int lIndex = index * 2 + 1;
     int rIndex = index * 2 + 2;
