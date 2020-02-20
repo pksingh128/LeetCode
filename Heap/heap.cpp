@@ -40,28 +40,3 @@ void heapify(vector<int> &vec, int index)
         }
     }
 }
-
-int main()
-{
-    vector<int> vec = {4, 1};
-    int size = vec.size();
-    for (int i = 0; i < size; i++)
-    {
-        heapify(vec, i);
-    }
-    cout << "\nHeapify :";
-    for (int m : vec)
-        cout << m << " ";
-
-    while (size != 0)
-    {
-        swap(vec[0], vec[size - 1]);
-        size--;
-        perculate(vec, 0, size);
-    }
-    cout << "\nSorting :";
-
-    for (int m : vec)
-        cout << m << " ";
-    return 0;
-}
