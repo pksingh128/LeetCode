@@ -19,6 +19,7 @@ int main() {
     {
         swap(vec[0], vec[size - 1]);
         size--;
+        cout << vec[size - 1];
         perculate(vec, 0, size);
     }
     return 0;
