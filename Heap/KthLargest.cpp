@@ -4,9 +4,9 @@
 
 using namespace std;
 int main() {
-    int k = 5;
+    int k = 2;
     int size;
-    vector <int> vec = {4, 1, 7, 6, 0, 8};
+    vector <int> vec = {5, 1, 4, 9, 0, 6, 1, 6, 7, 89};
     size = vec.size();
     for(int i = 0; i < size; i++) heapify(vec, i);
 
@@ -15,12 +15,13 @@ int main() {
 
     cout << "\n";
 
-    while (size != 0)
+    while (k != 0)
     {
         swap(vec[0], vec[size - 1]);
         size--;
-        cout << vec[size - 1];
+        k--;
         perculate(vec, 0, size);
     }
+    for(int n : vec)    cout << n << " ";
     return 0;
 }
