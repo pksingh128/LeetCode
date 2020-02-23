@@ -12,7 +12,7 @@ public:
             mid = high - (high - low) / 2;
             
 			/*
-				expression mid*mid will leads to an overflow conditon. instead of mid*mid
+				expression mid*mid will leads to an overflow condition. instead of mid*mid
 				equivalent will be mid == (x / mid).
 				
 			*/
